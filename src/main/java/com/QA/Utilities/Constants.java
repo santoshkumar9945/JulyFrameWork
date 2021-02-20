@@ -2,7 +2,7 @@ package com.QA.Utilities;
 
 public class Constants {
 	
-	public static final String LOGIN_PAGE_TITLE = "Kincrew";
+	public static final String LOGIN_PAGE_TITLE = "kincrew";
 	
 	
 	

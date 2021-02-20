@@ -4,6 +4,7 @@
 
  <listeners>
   	<listener class-name="com.QA.Listeners.ExtentReportListener"/>
+  	<listener class-name="com.QA.Listeners.TestAllureListener"/>
   </listeners>
 
   <test  name="Test in Chrome">
