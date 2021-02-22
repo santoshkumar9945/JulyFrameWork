@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="regression test case" thread-count="3" parallel="tests" verbose="3">
+<suite name="regression test case" thread-count="6" parallel="tests" verbose="3">
 
  <listeners>
   	<listener class-name="com.QA.Listeners.ExtentReportListener"/>
@@ -11,14 +11,17 @@
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.QA.Tests.loginPageTest"/> 
-    
+    <class name="com.QA.Tests.DashBoardTest"/> 
+    <class name="com.QA.Tests.HouseHoldPageTest"/> 
     </classes>
   </test> <!-- Test -->
   
   <test  name="Test in Firefox">
    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.QA.Tests.loginPageTest"/>
+      <class name="com.QA.Tests.loginPageTest"/> 
+    <class name="com.QA.Tests.DashBoardTest"/> 
+    <class name="com.QA.Tests.HouseHoldPageTest"/>
       
     </classes>
   </test> <!-- Test -->
